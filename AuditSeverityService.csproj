@@ -27,5 +27,14 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="AuditSeverityService.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SeverityLog.log">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
