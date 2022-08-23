@@ -18,7 +18,7 @@ namespace AuditSeverityService.Repositories
     public class AuditSeverityRepos : IAuditSeverityRepos
     {
         private readonly AuditManagementSystemContext _context;
-        readonly string _baseUrlForAudityBenchmarkApi = "https://benchmarkserviceams.azurewebsites.net/";
+        readonly string _baseUrlForAudityBenchmarkApi = "http://20.225.25.207/";
         public Dictionary<string, int> auditBenchmark = new Dictionary<string, int>();
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuditSeverityRepos));
 
